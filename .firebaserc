@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "lp-dim-fi": {
+      "hosting": {
+        "lp-fi": [
+          "lp-dim-fi"
+        ]
+      }
+    }
+  }
+}
