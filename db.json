@@ -1,0 +1,24 @@
+{
+    "students": [{
+            "id": 0,
+            "firstName": "",
+            "lastName": "",
+            "birthYear": 0,
+            "class": "LP-DIM-XXX"
+        },
+        {
+            "id": 1,
+            "firstName": "prenom",
+            "lastName": "nom",
+            "birthYear": 0,
+            "class": "LP-DIM-XXX"
+        },
+        {
+            "id": 2,
+            "firstName": "jean",
+            "lastName": "paul",
+            "birthYear": 0,
+            "class": "LP-DIM-XXX"
+        }
+    ]
+}
