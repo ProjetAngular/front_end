@@ -1,0 +1,35 @@
+<div style="background-color:black;">
+<h3>Add student</h3>
+<form [formGroup]="studentForm" (ngSubmit)=onSubmit(studentForm.value)>
+  <mat-form-field appearance="fill">
+    <mat-label>firstName</mat-label>
+    <input matInput formControlName="firstName" placeholder="Jack" type="text">
+  </mat-form-field>
+  <br>
+  <mat-form-field appearance="fill">
+    <mat-label>lastName</mat-label>
+    <input matInput formControlName="lastName" placeholder="Jack" type="text">
+  </mat-form-field>
+  <br>
+  <mat-form-field appearance="fill">
+    <mat-label>birthYear</mat-label>
+    <input matInput formControlName="birthYear" placeholder="2000" type="number">
+  </mat-form-field>
+  <br>
+  <mat-form-field appearance="fill">
+	  <mat-label>Class</mat-label>
+		<mat-select formControlName="class">
+			<mat-option *ngFor="let class of classes" [value]="class">
+				{{class}}
+			</mat-option>
+		</mat-select>
+	</mat-form-field>
+   <br>
+   <!--{{studentForm}}-->
+
+  <button mat-raised-button color="accent" [disabled]="!studentForm.valid">
+    <mat-icon>add</mat-icon>ajouter
+  </button>
+</form>
+<br>
+</div>
