@@ -12,7 +12,7 @@
 
 ## <a name="requirements"></a>Outils requis
 
-- [Cliquer sur ce lien pour accèder au Firebase](https://console.firebase.google.com/u/0/project/projetangulariut/extensions?hl=FR)
+- [Cliquer sur ce lien pour accèder au Firebase](https://lp-fi-projet-iut-ac117.web.app)
 - [Cliquer sur ce lien pour accèder au dossier Back](https://github.com/ProjetAngular/Back_End)
 
 ## <a name="getting-started"></a>Avant de commencer
